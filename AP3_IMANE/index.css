@@ -1,0 +1,98 @@
+
+
+form {
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    border: 1px solid #d4e7d7; /* Bordure verte claire */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Titres */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f4; /* Vert très clair */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Pleine hauteur de la fenêtre */
+}
+form h1 {
+    color: #2e8b57; /* Vert forêt */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3cb371; /* Vert moyen */
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Champs de texte */
+form input[type="text"], 
+form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d4e7d7; /* Bordure verte claire */
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Boutons */
+form button {
+    background-color: #3cb371; /* Vert moyen */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #2e8b57; /* Vert forêt */
+}
+
+/* Lien */
+form a {
+    display: block;
+    margin-top: 10px;
+    color: #2e8b57; /* Vert forêt */
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+/* Messages d'erreur ou de succès */
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.message.erreur {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+}
+
+.message.succes {
+    background-color: #ddffdd;
+    color: #4f8a10;
+    border: 1px solid #4f8a10;
+}

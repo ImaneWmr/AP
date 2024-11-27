@@ -1,0 +1,99 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9f4; /* Fond vert très clair */
+    color: #333; /* Couleur principale du texte */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: #ffffff; /* Fond blanc */
+    border: 1px solid #d4e7d7; /* Bordure verte claire */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Message de bienvenue */
+.container h1 {
+    color: #2e8b57; /* Vert forêt */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Section élève ou professeur */
+.container h2 {
+    color: #3cb371; /* Vert moyen */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Liens */
+.container a {
+    display: block;
+    color: #2e8b57; /* Vert forêt */
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: #3cb371; /* Vert moyen */
+    text-decoration: underline;
+}
+
+/* Bouton */
+.container form button {
+    background-color: #3cb371; /* Vert moyen */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container form button:hover {
+    background-color: #2e8b57; /* Vert forêt */
+}
+
+/* Message d'erreur ou d'information */
+.message {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Menu */
+.menu {
+    background-color: #d4e7d7; /* Fond vert clair */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #2e8b57; /* Vert forêt */
+    font-size: 1em;
+}

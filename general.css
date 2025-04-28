@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f4; /* Vert très clair pour le fond */
+    color: #333; /* Texte sombre pour le contraste */
+}
+.menu {
+    display: flex;
+    justify-content: center; /* Centre horizontalement les éléments */
+    align-items: center;
+    background-color: #333; /* Couleur de fond du menu */
+    padding: 10px;
+    position: fixed; /* Fixe le menu en haut de la page */
+    top: 0;
+    left: 0;
+    width: 100%; /* Le menu occupe toute la largeur */
+    z-index: 1000; /* Toujours au-dessus des autres éléments */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre sous le menu */
+}
+.menu-item {
+    margin: 0 60px; /* Espacement horizontal entre les boutons */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.button:hover {
+    background-color: #45a049; /* Couleur au survol */
+}
+a {
+    display: block;
+    color: #2e8b57; /* Vert forêt */
+    font-size: 1.2em;
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    transition: color 0.3s ease;
+}
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top : 0px;
+}
+.commentaire p {
+    margin: 5px 0;
+}
+#perso {
+    background-color: #fff;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#perso h2 {
+    color: #4CAF50; /* Couleur verte pour le titre */
+    text-align: center;
+}
+.formConnexion {
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    border: 1px solid ; /* Bordure verte claire */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(185, 56, 56, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: 450px;
+}
+.formemail{
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    border: 1px solid ; /* Bordure verte claire */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(185, 56, 56, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.btnemail{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.formConnexion h1 {
+    color: #2e8b57; /* Vert forêt */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.formConnexion label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3cb371; /* Vert moyen */
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Champs de texte */
+.formConnexion input[type="text"], 
+.formConnexion input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d4e7d7; /* Bordure verte claire */
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Boutons */
+.formConnexion button {
+    background-color: #3cb371; /* Vert moyen */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.formConnexion button:hover {
+    background-color: #2e8b57; /* Vert forêt */
+}
+
+/* Lien */
+.formConnexion a {
+    display: block;
+    margin-top: 10px;
+    color: #2e8b57; /* Vert forêt */
+    text-decoration: none;
+    font-size: 0.9em;
+}

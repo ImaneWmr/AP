@@ -1,0 +1,202 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f4; /* Vert très clair pour le fond */
+    color: #333; /* Texte sombre pour le contraste */
+}
+
+/* Conteneur principal */
+.contenu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour la lisibilité */
+    border: 1px solid #d4e7d7; /* Bordure subtilement verte */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+.contenu h1 {
+    color: #2e8b57; /* Vert forêt */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Sous-titres */
+.contenu h2 {
+    color: #3cb371; /* Vert moyen */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d4e7d7; /* Ligne verte claire */
+    padding-bottom: 5px;
+}
+
+/* Paragraphes */
+.contenu p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Liens */
+.contenu a {
+    color: #2e8b57; /* Vert forêt */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenu a:hover {
+    color: #3cb371; /* Vert moyen */
+    text-decoration: underline;
+}
+
+/* Boutons */
+.bouton {
+    display: inline-block;
+    background-color: #3cb371; /* Vert moyen */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.bouton:hover {
+    background-color: #2e8b57; /* Vert forêt */
+}
+
+/* Liste */
+.contenu ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.contenu ul li {
+    margin-bottom: 10px;
+    color: #2e8b57; /* Vert forêt */
+}
+
+/* Tableaux */
+.tableau {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableau th, .tableau td {
+    border: 1px solid #d4e7d7;
+    padding: 10px;
+    text-align: left;
+}
+
+.tableau th {
+    background-color: #3cb371; /* Vert moyen */
+    color: white;
+}
+
+.tableau tr:nth-child(even) {
+    background-color: #f0f9f4; /* Alternance de lignes */
+}
+/*////////partie index.php page de connexion
+partie creer un compte rendu :*/
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+/* Titre du formulaire */
+form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+form label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Champs de saisie */
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Bouton de soumission */
+form button {
+    background-color:#2e8b57;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Messages */
+.message-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.message-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+
+
+
